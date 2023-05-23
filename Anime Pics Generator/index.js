@@ -9,6 +9,7 @@ const fetchAPI = async function(){
 
         btnEl.disabled = true ;
         btnEl.innerText = 'Loading...';
+        animeImgEl.src = "/images/spinner.svg";
         animeNameEl.innerText = 'Updating...';
         const url = 'https://api.catboys.com/img';
         const response = await fetch(url);
@@ -20,7 +21,9 @@ const fetchAPI = async function(){
         btnEl.innerText = 'Get Anime';
 
     } catch(error) {
-        console.log(error);
+        animeContainerEl.style.display = 'none' ;
+        btnEl.innerText = 'an error happened, try again later';
+        btnEl.disabled = false ;
     }
 }
 
