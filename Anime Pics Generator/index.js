@@ -12,8 +12,7 @@ const fetchAPI = async function(){
         animeImgEl.src = "/images/spinner.svg";
         animeNameEl.innerText = 'Updating...';
         const url = 'https://api.catboys.com/img';
-        const response = await fetch(url);
-        const data = await response.json();
+        const data = await fetch(url).then(res=>res.json());
         animeImgEl.src = data.url;
         animeNameEl.innerText = data.artist ;
         animeContainerEl.style.display = 'block';
