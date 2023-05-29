@@ -1,18 +1,21 @@
 body {
-    margin:0;
     background-image:linear-gradient(to left, lightblue, lightgreen);
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Courier New';
+    margin:0;
 }
 
 .heading {
     text-align:center;
     font-size:35px;
     padding-top:10px;
+    color:darkgreen;
 }
 
 .info-text {
     text-align:center;
     font-size:18px;
+    color:darkgreen;
+    font-weight:100;
 }
 
 .app {
@@ -20,44 +23,45 @@ body {
     grid-template-columns:repeat(auto-fill, 300px);
     justify-content:center;
     gap:40px;
-    padding:50px;
+    margin:40px;
 }
 
 .note {
-    border-radius:15px;
-    border:none;
-    resize:none;
-    box-shadow:0 0 3px rgba(0, 0,0,.3);
-    padding:15px;
-    background-color:rgba(255,255,255,.1);
-    outline:none;
     height:200px;
+    resize:none;
+    border:none;
+    border-radius:15px;
+    background-color:rgba(255,255,255,.1);
+    box-shadow:0 0 3px rgba(0,0,0,.3);
+    color:darkgreen;
+    padding:10px;
+    font-size:16px;
+    outline:none;
     box-sizing:border-box;
 }
 
 .note::placeholder {
     color:gray;
-    font-size:17px;
+    font-size:16px;
     opacity:30%;
 }
 
 .note:hover, .note:focus {
-    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
-    transition:all 300ms ease;
+    box-shadow:0 0 10px rgba(0, 0, 0, .3);
+    transition:all 300ms ease ;
 }
 
 .btn {
-    border-radius:15px;
-    border-color:rgba(255,255,255,.5);
-    background-color:rgba(255,255,255,.2);
-    font-size:70px;
-    font-weight:600;
-    color:rgba(0,0,0,.3);
     height:200px;
+    border-radius:15px;
+    border-color:rgba(255,255,255,.37);
+    background-color:rgba(255,255,255,.27);
+    font-size:70px;
+    font-weight:700;
+    color:rgba(0, 0, 0, .3);
 }
 
 .btn:hover {
-    background-color:rgba(255,255,255,.5);
-    color:rgba(0,0,0,.6);
-    transition:all 300ms ease;
+    background-color:rgba(255,255,255,.6);
+    color:rgba(0, 0, 0, .6);
 }
