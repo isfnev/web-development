@@ -1,3 +1,4 @@
+***
 ![image](https://github.com/user-attachments/assets/22ad77f7-ac03-4976-a078-6d5d13aa34c5)
 Click on the search the word.
 ![image](https://github.com/user-attachments/assets/68cb05a7-c118-42be-9d82-d774dfcc6f00)
@@ -23,7 +24,3 @@ And as mentioned double clicking on a note will delete that note. It also uses a
 ![image](https://github.com/user-attachments/assets/980b9dcc-5ffd-40d8-aa56-99880a6a16f1)
 The api key is taken from api ninja which offer free 1000 api call per month.
 ***
-
-
-![image](https://github.com/user-attachments/assets/51929a49-8672-4164-85cf-469371295201)
-Click on the button to get the random emoji.
